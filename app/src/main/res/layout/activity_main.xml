@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State" />
+    <TextView
+        android:id="@+id/tvZip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zip" />
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhoneNumber" />
+    <TextView
+        android:id="@+id/tvEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EmailAddress" />
+    <Button
+        android:id="@+id/btnSendResultActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start activity result"
+        android:onClick="onClick"/>
+    <TextView
+        android:id="@+id/tvSharePrefUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserName" />
+
+</LinearLayout>
